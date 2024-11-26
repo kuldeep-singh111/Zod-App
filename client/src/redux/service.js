@@ -12,6 +12,7 @@ export const serviceApi = createApi({
     baseQuery: fetchBaseQuery({
         baseUrl: 'http://localhost:5000/api/',
         // baseUrl: `${SERVER_URL}/api/`,
+        // baseUrl: 'https://zod-app-2.onrender.com/api',
         credentials: "include",
     }),
     keepUnusedDataFor: 60 * 60 * 24 * 7,
