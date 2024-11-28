@@ -12,7 +12,7 @@ connectDB();
 
 app.use(
     cors({
-        origin: 'http://localhost:5173',
+        origin: 'https://melodic-semifreddo-547392.netlify.app',
         credentials: true,
     })
 );
